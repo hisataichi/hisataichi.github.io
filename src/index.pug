@@ -12,8 +12,25 @@ html
     script(type="text/javascript" src="js/jquery.min.js")
     script(type="text/javascript" src="js/index.js")
   body
-    .cover
-      .board
-        p.board--title 太一家
-        p.board--coming-soon
-          | 太一のHP
+    .board
+      p.board--title
+        | 太一家
+      p.board--coming-soon
+        | 太一のHP
+    ul.exlinks
+      li.exlinks--item
+        a(href="http://pixiv.me/taichike" target="blank") Pixiv
+      li.exlinks--item
+        a(href="https://kakuyomu.jp/users/taichike" target="blank") カクヨム
+      li.exlinks--item
+        a(href="https://soundcloud.com/taichike" target="blank") SoundCloud
+      li.exlinks--item
+        a.twitter-follow-button(href="https://twitter.com/gotaichike" data-show-count="false" data-size="large" data-show-screen-name="false") Follow @gotaichike
+      script.
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    .content
+      ul.articles
+        li.articles--item
+          a(href="articles/page_history.html")
+            span.date 2016.06.27
+            | かっこいいサイトを作る

@@ -1,22 +1,57 @@
-.cover
-  width 100%
-  positoin relative
-
 .board
   position absolute
   top 45%
   left 30%
 
   .board--title
-    font-size 26px
-    color #333
-    margin 0px
-    padding 0px
+    font-size 1.8rem
+    margin 0
+    padding 0
 
   .board--coming-soon
-    font-size 14px
-    font-weight bold
-    color #888
-    margin 0px
-    margin-left 30px
-    padding 0px
+    font-size 0.8
+    font-weight bolder
+    color #777
+    margin 0
+    padding 0
+    margin-left 1.8rem
+
+.exlinks
+  position absolute
+  top 38%
+  right 30%
+  width 10rem  
+  margin 0
+  padding 0
+  list-style none
+  text-align center
+
+  .exlinks--item
+    margin 1rem 0
+    padding 0
+
+.content
+  position absolute
+  top 70%
+  width 100%
+
+.articles
+  text-align center
+  list-style none
+
+  .articles--item
+    margin 0
+    padding 0
+  
+.date
+  font-weight bolder
+  padding-right 1rem
+  color #b00
+
+@media(max-width: 800px)
+  .exlinks
+    top 118%
+    right auto
+    width 100%
+  .content
+    top calc(118% + 14rem)
