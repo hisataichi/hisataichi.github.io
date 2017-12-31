@@ -1,2 +1,2 @@
-# taichike.github.io
-太一@太一家のHP
+# hisataichi.github.io
+日佐太一@太一家のHP
