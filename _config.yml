@@ -1,9 +1,9 @@
 # main text of home
 name: たいちけ
-bio: 自作ゲーム、アトリエシリーズの同人やってます。
+bio: メルヘンな世界観を基調にして自作ゲーム、アトリエシリーズの同人やってます。
 
 # twitter summary info
-description: サークル「たいちけ」の活動記録。自作ゲーム、アトリエシリーズの同人やってます。
+# description:
 
 # if it's an external image, update below for true
 # better with square images
@@ -60,7 +60,8 @@ tumblr: true
 authors:
     hisataichi:
         name: 日佐 太一
-        bio: サークル「たいちけ」の主催。自作ゲーム、アトリエシリーズの同人やってます。
+        bio: サークル「たいちけ」の主催です。自作ゲーム、アトリエシリーズの同人やってます。
+        biography: サークル「たいちけ」の主催です。RPGやADVが好きで、アトリエシリーズのメルヘンな世界観を自分でも作ってみたいと思い日々精進しています！！　アトリエシリーズは「メルルのアトリエ」から入ってハマりました。アーランドシリーズを遡り、その後は毎作遊んでいます。推しキャラはフィリス！！　かわいいー！　リディー&スールでも出てくるみたいなので期待ですね。システム関係に強いのでバリバリ自分でプログラミングして自作ゲームを作っていきたいです。
         external-image: false
         picture: assets/images/profile.jpg
         twitter: hisataichi
