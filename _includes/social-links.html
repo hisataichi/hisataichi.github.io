@@ -49,7 +49,7 @@
 
     {% if site.lastfm %}
         <a class="link" data-title="last.fm/user/{{ site.lastfm }}" href="https://last.fm/user/{{ site.lastfm }}" target="_blank">
-            <svg class="icon icon-lastfm"><use xlink:href="#icon-lastfm"></use></svg>   
+            <svg class="icon icon-lastfm"><use xlink:href="#icon-lastfm"></use></svg>
         </a>
     {% endif %}
 
@@ -58,7 +58,7 @@
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
-    
+
     {% if site.stackoverflow %}
         <a class="link" data-title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank">
             <svg class="icon icon-stackoverflow"><use xlink:href="#icon-stackoverflow"></use></svg>
@@ -92,6 +92,24 @@
     {% if site.lanyrd %}
         <a class="link" data-title="lanyrd.com/{{ site.lanyrd }}" href="https://lanyrd.com/{{ site.lanyrd }}" target="_blank">
             <svg class="icon icon-microphone"><use xlink:href="#icon-microphone"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.kakuyomu %}
+        <a class="link" data-title="kakuyomu.jp/users/{{ site.kakuyomu }}" href="https://kakuyomu.jp/users/{{ site.kakuyomu }}" target="_blank">
+            <svg class="icon icon-kakuyomu"><use xlink:href="#icon-kakuyomu"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.pixiv %}
+        <a class="link" data-title="pixiv.me/{{ site.pixiv }}" href="http://pixiv.me/{{ site.pixiv }}" target="_blank">
+            <svg class="icon icon-pixiv"><use xlink:href="#icon-pixiv"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.soundcloud %}
+        <a class="link" data-title="soundcloud.com/{{ site.soundcloud }}" href="https://soundcloud.com/{{ site.soundcloud }}" target="_blank">
+            <svg class="icon icon-soundcloud"><use xlink:href="#icon-soundcloud"></use></svg>
         </a>
     {% endif %}
 

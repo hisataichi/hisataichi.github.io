@@ -1,5 +1,5 @@
 # main text of home
-name: 日佐 太一
+name: たいちけ
 bio: サークル「たいちけ」の主催。自作ゲーム、アトリエシリーズの同人やってます。
 
 # twitter summary info
@@ -51,6 +51,10 @@ github: hisataichi
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: go.taichike@gmail.com
+# custom social links
+kakuyomu: taichike
+pixiv: hisataichi
+soundcloud: taichike
 
 authors:
     hisataichi:
