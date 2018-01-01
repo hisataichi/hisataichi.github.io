@@ -23,6 +23,12 @@
         </a>
     {% endif %}
 
+    {% if site.pixiv %}
+        <a class="link" data-title="pixiv.me/{{ site.pixiv }}" href="http://pixiv.me/{{ site.pixiv }}" target="_blank">
+            <svg class="icon icon-pixiv"><use xlink:href="#icon-pixiv"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.pinterest %}
         <a class="link" data-title="pinterest.com/{{ site.pinterest }}" href="http://pinterest.com/{{ site.pinterest }}" target="_blank">
             <svg class="icon icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg>
@@ -98,12 +104,6 @@
     {% if site.kakuyomu %}
         <a class="link" data-title="kakuyomu.jp/users/{{ site.kakuyomu }}" href="https://kakuyomu.jp/users/{{ site.kakuyomu }}" target="_blank">
             <svg class="icon icon-kakuyomu"><use xlink:href="#icon-kakuyomu"></use></svg>
-        </a>
-    {% endif %}
-
-    {% if site.pixiv %}
-        <a class="link" data-title="pixiv.me/{{ site.pixiv }}" href="http://pixiv.me/{{ site.pixiv }}" target="_blank">
-            <svg class="icon icon-pixiv"><use xlink:href="#icon-pixiv"></use></svg>
         </a>
     {% endif %}
 
