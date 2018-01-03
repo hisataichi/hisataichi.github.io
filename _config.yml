@@ -10,11 +10,11 @@ bio: メルヘンな世界観を基調にして自作ゲーム、アトリエシ
 external-image: false
 picture: assets/images/circle.jpg
 
-# If you want to include your resume, set to true
+# If you want to include your patron, set to true
 # and specify source (external or local).
-# resume: true
-# resume-external: true
-# resume-url: https://google.com/?q=my+resume
+patron: true
+patron-external: true
+patron-url: https://fantia.jp/taichike
 
 url: http://taichike.com
 # your url: http://USERNAME.github.io

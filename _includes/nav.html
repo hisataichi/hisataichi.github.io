@@ -30,9 +30,9 @@
             {% endif %}
         {% endif %}
 
-        {% if site.resume == true %}
+        {% if site.patron == true %}
             <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
+                <a class="link" href="{% if site.patron-external %}{{ site.patron-url }}{% else %}{{ site.url }}/{{ site.patron-url }}{% endif %}">応援</a>
             </li>
         {% endif %}
     </ul>
