@@ -1,4 +1,10 @@
 <div class="social-links">
+    {% if site.tumblr %}
+        <a class="link" data-title="news.taichike.com" href="http://news.taichike.com" target="_blank">
+            <svg class="icon icon-tumblr"><use xlink:href="#icon-tumblr"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.facebook %}
         <a class="link" data-title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank">
             <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
@@ -8,12 +14,6 @@
     {% if site.twitter %}
         <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
             <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-        </a>
-    {% endif %}
-
-    {% if site.tumblr %}
-        <a class="link" data-title="news.taichike.com" href="http://news.taichike.com" target="_blank">
-            <svg class="icon icon-tumblr"><use xlink:href="#icon-tumblr"></use></svg>
         </a>
     {% endif %}
 
