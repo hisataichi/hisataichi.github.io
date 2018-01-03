@@ -8,7 +8,7 @@ title: Blog
 	{% if site.posts.size == 0 %}
 		<p class="text-center">まだ何も投稿されていません！</p>
 	{% elsif site.paginate %}
-		{% for post in paginator.posts %}
+		{% for post in paginator.posts reversed %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
 					{% include blog-post.html %}
@@ -18,7 +18,7 @@ title: Blog
 
 		{% include pagination.html%}
 	{% else %}
-		{% for post in site.posts %}
+		{% for post in site.posts reversed %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
 					{% include blog-post.html %}
