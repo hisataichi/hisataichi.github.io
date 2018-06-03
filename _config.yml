@@ -14,7 +14,7 @@ picture: assets/images/circle.jpg
 # and specify source (external or local).
 patron: true
 patron-external: true
-patron-url: https://fantia.jp/taichike
+patron-url: https://fantia.jp/hisataichi
 
 url: http://hisataichi.com
 # your url: http://USERNAME.github.io
