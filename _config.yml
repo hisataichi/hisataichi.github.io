@@ -1,5 +1,5 @@
 # main text of home
-name: たいちけ
+name: 日佐太一
 bio: メルヘンな世界観を基調にして自作ゲーム、アトリエシリーズの同人やってます。
 
 # twitter summary info
@@ -16,7 +16,7 @@ patron: true
 patron-external: true
 patron-url: https://fantia.jp/taichike
 
-url: http://taichike.com
+url: http://hisataichi.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -50,7 +50,7 @@ github: hisataichi
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: hisataichi@taichike.com
+email: hisataichi@gmail.com
 # custom social links
 pixiv: hisataichi
 kakuyomu: hisataichi
@@ -60,8 +60,8 @@ tumblr: true
 authors:
     hisataichi:
         name: 日佐 太一
-        bio: サークル「たいちけ」の主催です。自作ゲーム、アトリエシリーズの同人やってます。
-        biography: サークル「たいちけ」の主催です。RPGやADVが好きで、アトリエシリーズのメルヘンな世界観を自分でも作ってみたいと思い日々精進しています！！　アトリエシリーズは「メルルのアトリエ」から入ってハマりました。アーランドシリーズを遡り、その後は毎作遊んでいます。推しキャラはフィリス！！　かわいいー！　リディー&スールでも出てくるみたいなので期待ですね。システム関係に強いのでバリバリ自分でプログラミングして自作ゲームを作っていきたいです。
+        bio: 自作ゲーム、アトリエシリーズの同人やってます。
+        biography: RPGやADVが好きで、アトリエシリーズのメルヘンな世界観を自分でも作ってみたいと思い日々精進しています！！　アトリエシリーズは「メルルのアトリエ」から入ってハマりました。アーランドシリーズを遡り、その後は毎作遊んでいます。推しキャラはフィリス！！　かわいいー！　リディー&スールでも出てくるみたいなので期待ですね。システム関係に強いのでバリバリ自分でプログラミングして自作ゲームを作っていきたいです。
         external-image: false
         picture: assets/images/profile.jpg
         twitter: hisataichi
@@ -111,5 +111,5 @@ jekyll-mentions:
     base_url: https://github.com
 
 # Jekyll SEO tag configure
-title: たいちけ
+title: 日佐太一	,同人
 lang: ja_JP
